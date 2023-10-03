@@ -16,40 +16,22 @@ El proyecto se divide en varios pasos clave:
 
 4. **Modelo de Machine Learning:** Se construye y entrena un modelo de Machine Learning utilizando bibliotecas como Scikit-Learn.
 
-5. **Renderización de Resultados:** Los resultados del análisis y las predicciones se muestran en un formato visual comprensible.
+5. **Render:** Los resultados del análisis y las predicciones se muestran en un formato visual comprensible.
+#https://proyecto-ml-4hy9.onrender.com/docs#/
 
 ## Bibliotecas Utilizadas
 
 El proyecto utiliza varias bibliotecas de Python para tareas específicas:
 
 - Pandas
-- Matplotlib
-- Numpy
 - Seaborn
-- Wordcloud
-- NLTK
 - Uvicorn
 - Render
 - FastAPI
 - Scikit-Learn
 
-## Requisitos Previos
-
-Antes de ejecutar este proyecto, asegúrate de tener instaladas las siguientes dependencias:
-
-- Python
-- Todas las bibliotecas mencionadas en la sección "Bibliotecas Utilizadas"
-
-## Cómo Contribuir
-
-Si deseas contribuir a este proyecto, ¡estamos abiertos a colaboraciones! Puedes enviar pull requests con tus mejoras o correcciones. Asegúrate de seguir las mejores prácticas de desarrollo y documentación.
 
 ## Autor
 
-Este proyecto fue creado por [Tu Nombre].
-
-## Licencia
-
-Este proyecto se comparte bajo la licencia [nombre de la licencia]. Consulta el archivo [LICENSE.md] para obtener más detalles.
-
+Este proyecto fue creado por [Jeronimo Rebolini].
 
