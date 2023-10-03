@@ -42,6 +42,17 @@ El proyecto utiliza varias bibliotecas de Python para tareas específicas:
 - FastAPI
 - Scikit-Learn
 
+# Conclusión
+
+Este proyecto ha sido una experiencia verdaderamente impresionante que me ha llevado al emocionante mundo del Data Science y la creación de una API de recomendación de videojuegos para Steam. A lo largo de este viaje, he adquirido valiosos conocimientos y habilidades que nos acercan aún más al rol de un Data Scientist.
+
+A pesar de los desafíos que tuve que enfrentar y de la curva de aprendizaje empinada que tuve que superar, he demostrado que con determinación y dedicación, se puede abordar proyectos complejos. En solo una semana, hice una simulación de lo que sería trabajar para una empresa tan influyente como Steam.
+
+Esta experiencia me ha brindado una comprensión profunda de cómo se aplican los conceptos de Machine Learning y análisis de datos en situaciones del mundo real. He explorado bibliotecas y herramientas poderosas, desde Pandas y Matplotlib hasta FastAPI y Uvicorn, y he aprendido a utilizarlas de manera efectiva para resolver problemas complejos.
+
+En resumen, esta ha sido una semana intensa, pero extremadamente gratificante. Estoy con muchas ganas de continuar explorando el mundo del Machine Learning y el Data Science, y espero aplicar estos conocimientos en proyectos aún más emocionantes en el futuro.
+
+
 
 ## Autor
 
