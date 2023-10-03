@@ -11,7 +11,7 @@ def index():
 @app.get('/usersrecommend/{year}')
 def UsersRecommend(year : int):
     import pandas as pd
-    df = pd.read_csv('Steam_Dataset/dataset_endpoint_1_2.csv')
+    df = pd.read_csv('entornovirtual-env/dataset_endpoint_1_2.csv')
 
     df_filtrado = df[df['year'] == year]
 
