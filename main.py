@@ -41,8 +41,8 @@ def UsersNotRecommend(year : int):
 @app.get('/gamerecommend/{id}')
 def Recomendaciones(id : int):
     import pandas as pd
-    games = pd.read_csv('datasets/games_cleaned.csv')
-    games_ml = pd.read_csv('datasets/dataset_modelo_ml.csv')
+    games = pd.read_csv('games_limpio_y_ordenado.csv')
+    games_ml = pd.read_csv('dataset_modelo_ml.csv')
     games_ml.drop(columns=['publisher', 'app_name', 'developer', 'metascore'], inplace=True)
     
     from sklearn.preprocessing import OneHotEncoder
