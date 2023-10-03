@@ -26,7 +26,7 @@ def UsersRecommend(year : int):
 @app.get('/usersnotrecommend/{year}')
 def UsersNotRecommend(year : int):
     import pandas as pd
-    df = pd.read_csv('datasets/dataset_endpoint_1_2.csv')
+    df = pd.read_csv('dataset_endpoint_1_2.csv')
 
     df_filtrado = df[df['year'] == year]
 
@@ -65,7 +65,7 @@ def Recomendaciones(id : int):
 @app.get('/sentiment_analysys/{year}')
 def sentiment_analysis(year : int):
     import pandas as pd
-    df = pd.read_csv('datasets/dataset_endpoint_4.csv')
+    df = pd.read_csv('dataset_endpoint_4.csv')
 
     malo = len(df[(df['value'] == 'Malo') & (df['year'] == year)])
     neutral = len(df[(df['value'] == 'Neutral') & (df['year'] == year)])
