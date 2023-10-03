@@ -11,7 +11,7 @@ def index():
 @app.get('/usersrecommend/{year}')
 def UsersRecommend(year : int):
     import pandas as pd
-    df = pd.read_csv('Steam_Datasets/dataset_endpoint_1_2.csv')
+    df = pd.read_csv('dataset_endpoint_1_2.csv')
 
     df_filtrado = df[df['year'] == year]
 
@@ -26,7 +26,7 @@ def UsersRecommend(year : int):
 @app.get('/usersnotrecommend/{year}')
 def UsersNotRecommend(year : int):
     import pandas as pd
-    df = pd.read_csv('datasets/dataset_endpoint_1_2.csv')
+    df = pd.read_csv('dataset_endpoint_1_2.csv')
 
     df_filtrado = df[df['year'] == year]
 
@@ -41,8 +41,8 @@ def UsersNotRecommend(year : int):
 @app.get('/gamerecommend/{id}')
 def Recomendaciones(id : int):
     import pandas as pd
-    games = pd.read_csv('datasets/games_cleaned.csv')
-    games_ml = pd.read_csv('datasets/dataset_modelo_ml.csv')
+    games = pd.read_csv('games_limpio_y_ordenado.csv')
+    games_ml = pd.read_csv('dataset_modelo_ml.csv')
     games_ml.drop(columns=['publisher', 'app_name', 'developer', 'metascore'], inplace=True)
     
     from sklearn.preprocessing import OneHotEncoder
@@ -65,7 +65,7 @@ def Recomendaciones(id : int):
 @app.get('/sentiment_analysys/{year}')
 def sentiment_analysis(year : int):
     import pandas as pd
-    df = pd.read_csv('datasets/dataset_endpoint_4.csv')
+    df = pd.read_csv('dataset_endpoint_4.csv')
 
     malo = len(df[(df['value'] == 'Malo') & (df['year'] == year)])
     neutral = len(df[(df['value'] == 'Neutral') & (df['year'] == year)])
