@@ -1,8 +1,20 @@
 # Proyecto Individual de Machine Learning
 
 ![Proyecto Individual de Machine Learning](https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png)
+# Introducción
 
-Este proyecto de Machine Learning fue creado como parte de un trabajo individual. El objetivo principal del proyecto es aplicar técnicas de Machine Learning para analizar y predecir datos.
+Este proyecto es una iniciativa que combina el poder del Machine Learning con la vasta oferta de Steam, una plataforma multinacional de videojuegos. Su objetivo principal es proporcionar a los usuarios una experiencia de recomendación de videojuegos altamente personalizada y efectiva.
+
+## Descripción del Proyecto
+
+En esencia, este proyecto se centra en el desarrollo de una API inteligente que utiliza un modelo de recomendación basado en Machine Learning para Steam. Este modelo aprovecha técnicas avanzadas de análisis de datos y aprendizaje automático para ofrecer sugerencias de videojuegos a los usuarios. La API proporciona una interfaz intuitiva que permite a los usuarios interactuar con el sistema y obtener recomendaciones basadas en sus preferencias y comportamientos.
+
+## Características Clave
+
+- **Recomendaciones Personalizadas:** La API utiliza un modelo de recomendación altamente efectivo que tiene en cuenta el historial de juego, géneros favoritos y otros factores para ofrecer recomendaciones precisas.
+
+- **Exploración de Géneros y Fechas:** Además de las recomendaciones personalizadas, los usuarios pueden explorar información detallada sobre géneros de videojuegos y fechas de lanzamiento específicas.
+
 
 ## Pasos del Proyecto
 
@@ -33,5 +45,5 @@ El proyecto utiliza varias bibliotecas de Python para tareas específicas:
 
 ## Autor
 
-Este proyecto fue creado por [Jeronimo Rebolini].
+Este proyecto fue creado por Jeronimo Rebolini.
 
